@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.ns.mutiphotochoser.widget.HeaderGridView
+        android:id="@+id/gridGallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_gravity="top"
+        android:cacheColorHint="@null"
+        android:horizontalSpacing="0dp"
+        android:listSelector="#00000000"
+        android:numColumns="auto_fit"
+        android:padding="3dp"
+        android:verticalSpacing="0dp"
+        tools:listitem="@layout/image_grid_item" />
+
+</RelativeLayout>

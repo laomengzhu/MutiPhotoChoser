@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="has_chose">已选择</string>
+    <string name="picture_unit">张</string>
+    <string name="please_choose_pic">选择图片</string>
+    <string name="arrive_limit_count">已达到最大选择数</string>
+</resources>

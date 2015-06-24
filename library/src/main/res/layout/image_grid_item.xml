@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:padding="2dp">
+
+    <RelativeLayout
+        android:id="@+id/photo_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_chose_selector"
+        android:gravity="center"
+        android:padding="1dp">
+
+        <ImageView
+            android:id="@+id/imgQueue"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/v_selected_frame"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_margin="1dp">
+
+        <ImageView
+            android:id="@+id/cb_select_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:focusable="false"
+            android:padding="6dp"
+            android:src="@android:drawable/checkbox_off_background" />
+    </RelativeLayout>
+
+</RelativeLayout>
