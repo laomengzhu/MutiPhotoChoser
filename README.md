@@ -4,7 +4,7 @@
 
 ![Screenshot](https://raw.githubusercontent.com/xiaolifan/MutiPhotoChoser/master/ScreenShot/2015-06-24_172813.jpg)
 
-## 使用
+## 使用（详见app目录）
 
 ### 配置AndroidManifest.xml
 
