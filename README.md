@@ -56,7 +56,7 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 ## 项目依赖
 
-	该库使用了“Android-Universal-Image-Loader”处理图片缓存，github地址：[https://github.com/nostra13/Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader "Android-Universal-Image-Loader")
+	该库使用了"Android-Universal-Image-Loader"处理图片缓存，github地址：[https://github.com/nostra13/Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader);
 
 ## License
 
