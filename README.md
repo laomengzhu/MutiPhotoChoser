@@ -29,8 +29,10 @@
 ### 调起图片选择页面选择图片
 
 ``` java
-/*改成应用的包名*/
+//***改成应用的包名
 Intent intent = new Intent("***.action.CHOSE_PHOTOS");
+//指定图片最大选择数
+intent.putExtra(Constant.EXTRA_PHOTO_LIMIT, 5);
 startActivityForResult(intent, REQUEST_PICK_PHOTO);
 ```
 
@@ -51,6 +53,10 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
     }
 }
 ```
+
+## 项目依赖
+
+	该库使用了“Android-Universal-Image-Loader”处理图片缓存，github地址：[https://github.com/nostra13/Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader "Android-Universal-Image-Loader")
 
 ## License
 

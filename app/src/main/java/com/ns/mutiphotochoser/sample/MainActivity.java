@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.button_add)
     void addPhotos() {
         Intent intent = new Intent("com.ns.mutiphotochoser.sample.action.CHOSE_PHOTOS");
+        //指定图片选择数
+        intent.putExtra(Constant.EXTRA_PHOTO_LIMIT, 5);
         startActivityForResult(intent, REQUEST_PICK_PHOTO);
     }
 
